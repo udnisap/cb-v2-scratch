@@ -1,15 +1,15 @@
 Meteor.startup(function() {
 
-  // Accounts.loginServiceConfiguration.remove({
-  //   service : 'slack'
-  // });
+  Accounts.loginServiceConfiguration.remove({
+    service : 'slack'
+  });
 
-  // Accounts.loginServiceConfiguration.insert({
-  //   service     : 'slack',
-  //   clientId : "4364220508.19931575810",
-  //   secret : "1f444a99afd6ee81a67197229c5a2b27",
-  //   loginStyle : "popup"
-  // });
+  Accounts.loginServiceConfiguration.insert({
+    service     : 'slack',
+    clientId : "replace me",
+    secret : "replace me",
+    loginStyle : "popup"
+  });
 
 });
 
