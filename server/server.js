@@ -6,9 +6,9 @@ Meteor.startup(function() {
 
   Accounts.loginServiceConfiguration.insert({
     service     : 'slack',
-    "clientId" : "replace me",
-    "secret" : "replace me",
-    "loginStyle" : "popup"
+    clientId : "replace me",
+    secret : "replace me",
+    loginStyle : "popup"
   });
 
 });
