@@ -3,7 +3,7 @@ Template.createHangoutModal.rendered = function() {
   var end = this.$('#end-date-time-picker');
   var dateFrom = new Date();
   var dateTo = new Date();
-  dateTo.setHours(dateTo.getHours()+1);
+  dateTo.setMinutes(dateTo.getMinutes()+15);
   start.datetimepicker({
     ignoreReadonly: true
   });
